@@ -35,7 +35,7 @@ public class RandomGift <T>{
 	List<T> giftPool = new ArrayList<>();
 	
 	int maxIndex = 0;
-	Random random = new Random();
+	Random random = new Random(); 
 	
 	
 	public RandomGift<T> addGift(T key,int value){
